@@ -1,1 +1,8 @@
-<p>This is the partial for view 1.</p>
+ <div ng-controller="MyCtrl1">
+   <ul>
+     <li style="cursor:pointer" ng-repeat="user in users" ng-click="get_user($index)">
+       [{{$index + 1}}] {{user.name}} who is {{user.age}} years old.
+     </li>
+   </ul>
+  <h4>{{the_user.name}}</h4>
+</div>
