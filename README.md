@@ -1,0 +1,4 @@
+ngresource
+==========
+
+Simple ngresource example
